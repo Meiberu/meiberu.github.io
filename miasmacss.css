@@ -4,7 +4,7 @@ html,body {
 
 @font-face {
 	font-family: BispoOriginal;
-	src: url(BispoOriginal.otf);
+	src: url(https://rawgit.com/Meiberu/meiberu.github.io/gh-pages/BispoOriginal.otf);
 }
  
 body {
@@ -113,7 +113,7 @@ h1, h2, h3, #page-title {
     padding: 0;
     margin: 15px 0;
     color: black;
-	font-family: "Times New Roman";
+	font-family: BispoOriginal;
 	
 }
  
