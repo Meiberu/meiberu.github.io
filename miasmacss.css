@@ -109,7 +109,7 @@ h1, h2, h3, #page-title {
     margin: 15px 0;
     color: black;
 	font-family: HeaderFont;
-	src: url(BispoOriginal);
+	src: url(BispoOriginal.otf);
 }
  
 #top-bar {
