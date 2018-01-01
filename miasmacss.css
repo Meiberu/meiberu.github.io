@@ -1,6 +1,11 @@
 html,body {
     min-height: 101%;
 }
+
+@font-face {
+	font-family: BispoOriginal;
+	src: url(BispoOriginal.otf);
+}
  
 body {
     background: white url(http://themes.wdfiles.com/local--files/midnightonyx/footer.png) repeat-x bottom;
@@ -109,6 +114,7 @@ h1, h2, h3, #page-title {
     margin: 15px 0;
     color: black;
 	font-family: "Times New Roman";
+	
 }
  
 #top-bar {
