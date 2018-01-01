@@ -8,7 +8,7 @@ html,body {
 }
  
 body {
-    background: white url(http://themes.wdfiles.com/local--files/midnightonyx/footer.png) repeat-x bottom;
+    background: white url(https://themes.wdfiles.com/local--files/midnightonyx/footer.png) repeat-x bottom;
 }
  
 #container-wrap {
@@ -132,7 +132,7 @@ h1, h2, h3, #page-title {
 #top-bar ul {
     margin-right: 8px;
     height: 29px;
-    background: url(http://themes.wdfiles.com/local--files/midnightonyx/link.png) repeat-x top;
+    background: url(https://themes.wdfiles.com/local--files/midnightonyx/link.png) repeat-x top;
 }
  
 #top-bar ul ul {
@@ -268,7 +268,7 @@ input.text, textarea {
 }
  
 div.buttons input, input.button, button, file, a.button {
-    background-image: url(http://themes.wikidot.com/local--files/midnightonyx/link.png);
+    background-image: url(https://themes.wikidot.com/local--files/midnightonyx/link.png);
     border: 1px solid black;        
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
