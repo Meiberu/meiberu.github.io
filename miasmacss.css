@@ -294,7 +294,7 @@ div.page-calendar-box {
 }
  
 a {
-    color: red;
+    color: crimson;
     text-decoration: underline;
     -webkit-transition: all 1s;
        -moz-transition: all 1s;
