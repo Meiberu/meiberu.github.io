@@ -1,0 +1,372 @@
+html,body {
+    min-height: 101%;
+}
+
+@font-face {
+	font-family: BispoOriginal;
+	src: url(https://cdn.rawgit.com/Meiberu/meiberu.github.io/gh-pages/BispoOriginal.otf);
+}
+ 
+body {
+    background: black url(https://themes.wdfiles.com/local--files/midnightonyx/footer.png) repeat-x bottom;
+	color: white; /* main font color */
+}
+ 
+#container-wrap {
+    background-image: url(https://i.imgur.com/7OVicm2.png);
+}
+ 
+/*  Use 950 pixels width for normal screens, 100% for iPhones */
+#container {
+    width: 950px;
+    margin: 0 auto;
+    padding-left: 8px;
+    background: url(/local--files/midnightonyx/leftshadow.png) no-repeat 0 89px;
+    position: relative;
+	background-color: rgba(0,0,0,.5);
+}
+ 
+@media only screen and (max-device-width: 480px) {
+  #container {
+    width: 100%;
+  }
+}
+ 
+#content-wrap {
+    padding-right: 8px;
+    background: url(/local--files/midnightonyx/rightshadow.png) no-repeat right -29px;
+    overflow: hidden;
+}
+ 
+#main-content {
+    margin: 20px 0 20px 0;
+    padding: 0 15px;
+    min-height: 150px;
+    overflow: hidden;
+}
+ 
+#page-content > *:first-child {
+    margin-top: 0;
+}
+ 
+#page-title {
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+    margin-top: 0;
+    font-size: 180%;
+}
+ 
+#header {
+    height: 118px;
+    padding-right: 8px;
+    background: url(/local--files/midnightonyx/rightshadow.png) no-repeat right 89px;
+}
+ 
+#header h1 {
+    float: left;
+    padding: 43px 0 0 16px;
+}
+ 
+#header h1 span {
+    padding-right: 7px;
+	color: white;
+}
+ 
+#header h1 a {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: none;
+    line-height: 26px;
+    color: black;
+}
+ 
+#header h1 a:hover {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: none;
+    line-height: 26px;
+    color: black;
+}
+ 
+#header h2 {
+    padding: 49px 7px 0;
+    font-size: 16px;
+    line-height: 20px;
+    color: white;
+}
+ 
+#header h2:before {
+    content: "|";
+    color: white;
+}
+ 
+#header h2 span {
+    padding-left: 7px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+ 
+h1, h2, h3, #page-title {
+    padding: 0;
+    margin: 15px 0;
+    color: white;
+	font-family: BispoOriginal;
+	
+}
+ 
+#top-bar {
+    width: 100%;
+    height: 29px;
+    right: 0;
+    left: 0;
+}
+ 
+#top-bar li, #top-bar ul {
+    margin: 0;
+    padding: 0;
+}
+ 
+#top-bar ul {
+    margin-right: 8px;
+    height: 29px;
+    background: url(https://themes.wdfiles.com/local--files/midnightonyx/link.png) repeat-x top;
+}
+ 
+#top-bar ul ul {
+    margin-right: 0;
+}
+ 
+#top-bar li a {
+    border-right: 1px solid white;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 29px;
+    padding: 0 15px;
+    text-decoration: none;
+}
+ 
+#top-bar li a:hover {
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+ 
+#top-bar li ul {
+    border: none;
+}
+ 
+#top-bar li ul li a {
+    width: 18em;
+    color: white;
+    background: black;
+}
+ 
+#top-bar li ul li a:hover {
+    color: black;
+    background: white;
+}
+ 
+#top-bar ul li.sfhover ul{
+    width: 20em;
+    background-color: black;
+}
+ 
+#top-bar ul li.sfhover ul li{
+    height: 29px;
+}
+ 
+#top-bar ul li.sfhover ul li.sfhover {
+    height: 29px;
+    width: 20em;
+    background-color: black;
+}
+ 
+#top-bar ul li.sfhover ul a{
+    width: 20em;
+    background-color: black;
+}
+ 
+#top-bar ul li.sfhover ul li:hover a{
+    background-color: white;
+    color: black;
+}
+ 
+#top-bar ul li ul li ul{
+    display: none;
+}
+ 
+#top-bar ul li.sfhover ul li.sfhover ul {
+    display: inherit;
+    position: relative;
+    left: 20em;
+    bottom: 29px;
+}
+ 
+#top-bar ul li.sfhover ul li.sfhover ul li a{
+    background-color: black;
+    color: white;
+}
+ 
+#top-bar ul li.sfhover ul li.sfhover ul li:hover a{
+    background-color: white;
+    color: black;
+}
+ 
+#side-bar {
+    border-left:1px dashed black;
+    float:right;
+    margin-top:10px;
+    overflow:hidden;
+    padding:0 15px 0;
+    width:200px;
+}
+ 
+#search-top-box {
+    right:-53px;
+    top:50px;
+}
+ 
+#search-top-box .button {
+    visibility: hidden;
+}
+ 
+#search-top-box input.empty {
+    background-color: #EEEEEE;
+    color: black;
+}
+#search-top-box .text {
+    padding:2px 2px 2px 5px;
+    width:220px;
+}
+ 
+#login-status {
+    right: 8px;
+    top: 8px;
+}
+ 
+#login-status a {
+    color: white;
+    text-decoration: none;
+}
+ 
+#login-status #account-topbutton, #account-options li a:hover, .change-textarea-size a {
+    color: white;    
+    background: black;
+}
+ 
+#login-status #account-topbutton:hover, .change-textarea-size a:hover {
+    color: white;
+    background: white;
+}
+ 
+input.text, textarea {
+    border-color: black;
+}
+ 
+div.buttons input, input.button, button, file, a.button {
+    background-image: url(https://themes.wikidot.com/local--files/midnightonyx/link.png);
+    border: 1px solid black;        
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 26px;
+    color: white;
+}
+ 
+div.buttons input:hover, input.button:hover, button:hover, a.button:hover, file:hover {
+    background: white;
+    border: 1px solid black;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: black;
+    height: 26px;
+}
+ 
+div.page-calendar-box {
+    padding: 0;
+}
+ 
+a {
+    color: red;
+    text-decoration: underline;
+    -webkit-transition: all 1s;
+       -moz-transition: all 1s;
+         -o-transition: all 1s;
+            transition: all 1s;
+}
+ 
+a:hover {
+    background-color: transparent;
+	text-decoration: underline;
+    color: darkred;
+}
+ 
+a.newpage {
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+}
+ 
+/*  Pop-up hover text over images or links  */
+/*  Use: [[span class="hover"]]Image or link[[span]]Hover text[[/span]][[/span]] */
+ 
+.hover{
+    color: black;
+    text-decoration: underline;
+}
+ 
+.hover:hover{
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+}
+ 
+.hover span {
+    display: none;
+}
+ 
+.hover:hover span {
+    position: absolute;
+    display: inline;
+    margin: 15px -20px;
+    height: auto;
+    width: auto;
+    background: white;
+    border: 1px solid black;
+    color: black;
+    padding: 1em;
+    font-size: 12px;
+}
+ 
+.hover:hover span span {
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: auto;
+    border: none;
+    padding: 0;
+}
+ 
+#breadcrumbs {
+    margin-bottom: 1em;
+}
+ 
+.odate, .like-odate {
+    font-size: 85%;
+    font-weight: bold;
+    color: black;
+    background: transparent;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+ 
+.member .error-block {
+    display:none;
